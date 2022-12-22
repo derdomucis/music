@@ -87,12 +87,12 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
     os.remove("background.png")
 
 
-# ==================================derdoVaves======================================================== 
+# ==================================𝙍𝙀𝙄𝙎⁷²Vaves======================================================== 
 @Client.on_callback_query(filters.regex("cls"))
 async def cls(_, query: CallbackQuery):
     await query.message.delete()
 
-# derdoMusicVaves düzenlenmiştir.
+# EfsaneMusicVaves düzenlenmiştir.
 
 @Client.on_message(command(["play", "oynat"]) 
                    & filters.group
@@ -152,7 +152,7 @@ async def play(_, message: Message):
 
         file_name = get_file_name(audio)
         title = file_name
-        thumb_name = "https://i.ibb.co/Qkz78hx/images-1.jpg"
+        thumb_name = "https://i.ibb.co/9w7CwQ5/Logopit-1663987970479.png"
         thumbnail = thumb_name
         duration = round(audio.duration / 60)
         views = "Yerel olarak eklendi"
@@ -174,6 +174,7 @@ async def play(_, message: Message):
             (await message.reply_to_message.download(file_name))
             if not path.isfile(path.join("downloads", file_name)) else file_name
         )
+        
 
     elif url:
         try:
@@ -198,13 +199,13 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🔖 derdo  𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Derdomuciis"),
+                InlineKeyboardButton("Sohbet_MUHABETT GURUBU", url=f"https://t.me/sohbetmuhabbettem"),
             ],
         ]
     )
         except Exception as e:
             title = "NaN"
-            thumb_name = "https://i.ibb.co/Qkz78hx/images-1.jpg"
+            thumb_name = "https://i.ibb.co/9w7CwQ5/Logopit-1663987970479.png"
             duration = "NaN"
             views = "NaN"
             keyboard = InlineKeyboardMarkup(
@@ -260,7 +261,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton("🔖 derdo 𝖬𝗎𝗓𝗂𝗄 𝖲𝗎𝗉𝗉𝗈𝗋𝗍", url=f"https://t.me/Derdomuciis"),
+                InlineKeyboardButton("SOHBET_MUHABETT GURUBU ", url=f"https://t.me/sohbetmuhabbettem"),
             ],
         ]
     )
