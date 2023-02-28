@@ -7,7 +7,7 @@
 - `/devam` •> **sᴀʀᴋɪʏɪ sᴜʀᴅᴜʀ**
 - `/atla` •> **sᴀʀᴋɪʏɪ ᴀᴛʟᴀʀ** 
 - `/son` •> **sᴀʀᴋɪʏɪ sᴏɴʟᴀɴᴅɪʀ**
-- `/reload` •> **ᴀᴅᴍɪɴ ʟɪsᴛᴇsɪɴɪ ɢᴜɴᴄᴇʟʟᴇʀ** 
+- `/yeniden yükle` •> **ᴀᴅᴍɪɴ ʟɪsᴛᴇsɪɴɪ ɢᴜɴᴄᴇʟʟᴇʀ*
 - `/katil` •> **ᴀsɪsᴛᴀɴ ɢʀᴜʙᴀ ᴋᴀᴛɪʟɪʀ**
 - `/ayril` •> **ᴀsɪsᴛᴀɴ ɢʀʏʙᴛᴀɴ ᴀʏʀɪʟɪʀ**
 - `/auth` •> **ᴋᴜʟʟᴀᴄɪʏɪ ʏᴇᴛᴋɪʟᴇɴᴅɪʀɪʀ**
@@ -28,5 +28,16 @@
 - [Developer](https://t.me/ondanbitmis)✨
 
 ### 🚀 Deploy to heroku
+
+[![Dağıt](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/derdomucis/music
+### 🗂 Bilgi
+
+- Dil: Piton.
+
+- Kütüphaneler Kütüphaneler: Telethon & Pyrogram İlk Ve Tek.
+
+- [Geliştirici](https://t.me/ondanbitmis)✨
+
+### 🚀 Heroku'ya dağıtın
 
 [![Dağıt](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/derdomucis/music
